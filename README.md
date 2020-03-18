@@ -1,12 +1,12 @@
  # Coding exercise for Cisco 
  #### Devon Hockley - devon.hockley@ucalgary.ca
 
- Done using kotlin, trying to be idiomatic with a functional/object-oriented hybrid approach with as much immutability as possible.
+ Done using Kotlin, trying to be idiomatic with a functional/object-oriented hybrid approach with as much immutability as possible.
 
  Creating my own class that would just end up wrapping MutableMap with my own functions is silly in kotlin
- so I added the desired functionality using static extensions.
+ so I added the desired functionality using static extensions. (See https://kotlinlang.org/docs/reference/extensions.html)
 
- Somewhat over engineered but i found it easier to reason about tests and behaviour with each distinct step of te process being wrapped as its own function.
+ Somewhat over engineered but I found it easier to reason about tests and behaviour with each distinct step of the process being wrapped as its own function.
 
  I also found it easier to reason about some methods when they are implemented with generics.
  
@@ -39,4 +39,8 @@
  Render documentation to html using:
  
     gradlew dokka
+    
+ HTML site can be found at:
+ 
+    ./build/dokka
  
