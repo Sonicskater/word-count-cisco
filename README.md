@@ -11,7 +11,7 @@
  I also found it easier to reason about some methods when they are implemented with generics.
  
  ## Running it
- The project includes a gradle wrapper.
+ The project includes a gradle wrapper, which expects a relativly recent versino of the JDK to be installed (works with 11 on my machine)
  
  To run it, use the commnad:
  
